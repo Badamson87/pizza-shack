@@ -13,9 +13,17 @@
 
 <body>
 
-  <div></div>
+  <button onclick="app.controllers.pizzaController.startPizza()">Start Your Pizza</button>
 
-  <script source="app/main.js" type="module"></script>
+  <div>
+    <h3>$<span id="amount">5.00</span></h3>
+  </div>
+
+  <div id="main-content"></div>
+  <!-- <div id="private-data-display">
+      </div> -->
+
+  <script src="app/main.js" type="module"></script>
 </body>
 
 </html>
